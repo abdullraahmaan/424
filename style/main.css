@@ -1,0 +1,110 @@
+/*==================================================
+//
+// Table of contents
+//
+// 01. Base
+// 02. Header
+// 03. Main Content
+//
+//
+==================================================*/
+/* 01. Base */
+body, html {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: "Droid Arabic Kufi", sans-serif !important;
+  background-color: #f2f2f2 !important; }
+
+/* 02. Header */
+header .navbar {
+  background-color: #0a0038; }
+
+header .navbar-brand img {
+  margin-top: 7px;
+  max-width: 230px; }
+
+header .navbar li a {
+  color: #ffffff; }
+
+header .navbar li i {
+  color: #ffffff;
+  font-size: 18px; }
+
+header .prim-navbar li:nth-child(3) a::before,
+header .prim-navbar li:nth-child(4) a::before {
+  content: '|' !important;
+  color: #ffffff !important;
+  margin-left: 10px;
+  margin-top: -10px; }
+
+header .sec-navbar {
+  background-color: #070029;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+header .sec-navbar li {
+  margin-left: 15px; }
+
+header .sec-navbar li a {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500; }
+
+header .sec-navbar .navbar-nav li:hover > .dropdown-menu {
+  display: block;
+  transition: all 0.1s ease-in-out; }
+
+header .sec-navbar .dropdown-item {
+  color: #0a0038; }
+
+/* 03. Main Content */
+main {
+  padding-top: 30px; }
+
+main .card-group .card {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+main .card-group small {
+  float: left;
+  font-size: 10px;
+  color: #888888; }
+main .card-group .card-body {
+  position: relative; }
+main .card-group .badge {
+  background-color: #ffffff;
+  border: 1px solid #888888;
+  color: #070029;
+  font-size: 9px;
+  padding: 5px 5px;
+  position: absolute;
+  top: -0.5rem; }
+main .card-group .card-title a {
+  color: #070029;
+  text-decoration: none; }
+
+main .video-card li a {
+  font-size: 11px;
+  color: #070029; }
+
+main .card table {
+  font-size: 10px; }
+main .card table img {
+  width: 12px;
+  height: 12px; }
+main .card .date {
+  font-size: 12px; }
+
+main .match-table h6 {
+  font-size: 13px;
+  display: inline-block; }
+main .match-table .form-group {
+  display: inline-block;
+  width: 8.3rem;
+  font-size: 11px !important; }
+main .match-table .form-group select {
+  font-size: 11px; }
+main .match-table .form-group option {
+  font-size: 11px; }
+
+/*# sourceMappingURL=main.css.map */

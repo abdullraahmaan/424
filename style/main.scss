@@ -1,0 +1,183 @@
+/*==================================================
+//
+// Table of contents
+//
+// 01. Base
+// 02. Header
+// 03. Main Content
+//
+//
+==================================================*/
+
+/* 01. Base */
+
+$blue : #070029;
+$blue-2: #0a0038;
+$green : #41C878;
+$offwhite: #f2f2f2;
+$font : 'Droid Arabic Kufi'; 
+
+body,html
+{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    font-family: $font, sans-serif !important;
+    background-color: $offwhite !important;
+}
+
+/* 02. Header */
+
+header .navbar
+{
+    background-color: $blue-2;
+}
+
+header .navbar-brand img 
+{
+    margin-top: 7px;
+    max-width: 230px;
+}
+
+header .navbar li a
+{
+    color: #ffffff;
+}
+
+header .navbar li i 
+{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+header .prim-navbar li:nth-child(3) a::before,
+header .prim-navbar li:nth-child(4) a::before
+{
+    content: '|' !important;
+    color: #ffffff !important;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+header .sec-navbar 
+{
+    background-color: $blue;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+header .sec-navbar li 
+{
+    margin-left: 15px;
+}
+
+header .sec-navbar li a 
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header .sec-navbar .navbar-nav li:hover>.dropdown-menu {
+    display: block;
+    transition: all 0.1s ease-in-out;
+}
+
+header .sec-navbar .dropdown-item
+{
+    color:  $blue-2;
+}
+
+/* 03. Main Content */
+
+main
+{
+    padding-top: 30px;
+}
+
+main .card-group {
+    .card {
+        
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    small
+    {
+        float:left;
+        font-size: 10px;
+        color: #888888;
+    }
+
+    .card-body
+    {
+        position: relative;
+    }
+
+    .badge
+    {
+        background-color: #ffffff;
+        border: 1px solid #888888;
+        color: $blue;
+        font-size: 9px;
+        padding:5px 5px;
+        position: absolute;
+        top: -0.5rem;
+    }
+
+    .card-title a 
+    {
+        color: $blue;
+        text-decoration: none;
+    }
+
+}
+
+main .video-card 
+{
+    li a 
+    {
+        font-size: 11px;
+        color: $blue;
+    }
+}
+
+main .card {
+    table {
+        font-size: 10px;
+    }
+    table img 
+    {
+        width: 12px;
+        height: 12px;
+    }
+    .date 
+    {
+        font-size: 12px;
+    }
+}
+
+main .match-table 
+{
+    h6 {
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    .form-group
+    {
+        display: inline-block;
+        width: 8.3rem;
+        font-size: 11px !important;
+    }
+
+    .form-group select
+    {
+        font-size: 11px;
+    }
+
+    .form-group option 
+    {
+        font-size: 11px;
+    }
+}
